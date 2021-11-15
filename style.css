@@ -1,3 +1,18 @@
-*{
+body{
     background-color: lightblue;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+}
+
+.formBox {
+    background-color: white;
+    padding-bottom: 200px;
+    padding-top: 5px;
+    padding-right: 200px;
+    padding-left: 200px;
+    border: 2px solid green;
 }

@@ -15,23 +15,28 @@ function plusMinus(arr) {
      console.log(calcNeg/arrayLength)
      console.log(calcZero/arrayLength)
 
-    //  let positives=document.querySelector("positives")
-    //  let posNumber = document.createElement("div")
-    //  posNumber.innerHTML=`${calcPos}`
-    //  positives.append(posNumber)
+     let positives=document.getElementById("positives")
+     let posNumber = document.createElement("div")
+     posNumber.innerHTML=`${calcPos}`
+     positives.append(posNumber)
 
-    //  let negatives=document.querySelector("negatives")
-    //  let negNumber=document.createElement("div")
-    //  negNumber.innerHTML=`${calcNeg}`
-    //  negatives.append(negNumber)
+     let negatives=document.getElementById("negatives")
+     let negNumber=document.createElement("div")
+     negNumber.innerHTML=`${calcNeg}`
+     negatives.append(negNumber)
 
-    //  let zeros=document.querySelector("zeros")
-    //  let zeroNumber=document.createElement("div")
-    //  zeroNumber.innerHTML=`${calcZero}`
-    //  zeros.append(zeroNumber)
+     let zeros=document.getElementById("zeros")
+     let zeroNumber=document.createElement("div")
+     zeroNumber.innerHTML=`${calcZero}`
+     zeros.append(zeroNumber)
 
-
+     let decimalRatio=document.getElementById("decimalRatio")
+     let ratioResult = document.createElement("div")
+     ratioResult.innerHTML = `${calcPos/arrayLength} 
+     ${calcNeg/arrayLength} ${calcZero/arrayLength}`
+     decimalRatio.append(ratioResult)
 }
-plusMinus([-1,1,0,1,2])
+plusMinus([-2,-1,0,1,2])
+
 // let arrayValue = document.querySelector("arrayvalue").value; 
 // plusMinus(arrayValue)
