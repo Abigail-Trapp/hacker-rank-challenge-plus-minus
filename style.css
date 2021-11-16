@@ -6,6 +6,8 @@ body{
     padding-right: 200px;
     padding-left: 200px;
     text-align: center;
+    font-family: Merriweather;
+    text-shadow: 2px 2px lightgray;
 }
 
 .formBox {
